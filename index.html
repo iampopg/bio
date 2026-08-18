@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sodiq Badmus | Cybersecurity Analyst & Security Automation Engineer</title>
+  <meta name="description" content="Sodiq Badmus — Cybersecurity Analyst, Digital Forensics & Incident Response (DFIR) Specialist, Malware Researcher, and Security Automation Engineer. Top 1% Global on TryHackMe.">
+  <meta name="author" content="Sodiq Badmus">
+  <meta name="keywords" content="Sodiq Badmus, Cybersecurity Analyst, DFIR, Malware Analysis, Threat Intelligence, Security Automation, Python, PhishGuard, ZUMA, MISP, MITRE ATT&CK, TryHackMe, Nigeria, Abuja">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sodiq Badmus | Cybersecurity Analyst & Security Automation Engineer">
+  <meta property="og:description" content="Specializing in Digital Forensics, Malware Triage, Threat Intelligence (MISP/MITRE), and Python Security Tooling. Global Top 1% on TryHackMe.">
+  <meta property="og:image" content="me.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="me.png">
+
+  <!-- Fonts: Space Grotesk (Headings), Plus Jakarta Sans (Body), JetBrains Mono (Code/Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Light Accents -->
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-top-right"></div>
+  <div class="ambient-glow glow-center"></div>
+
+  <!-- Background Grid -->
+  <div class="cyber-grid-bg"></div>
+
+  <!-- ===== FLOATING PILL NAVBAR ===== -->
+  <header class="navbar-wrapper">
+    <nav class="floating-pill-nav" id="navbar">
+      <a href="#home" class="nav-brand">
+        <span class="brand-shield">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+        </span>
+        <span class="brand-name">Sodiq Badmus</span>
+      </a>
+
+      <div class="nav-links-wrap" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">Profile</a></li>
+          <li><a href="#console" class="nav-link">Telemetry</a></li>
+          <li><a href="#analytics" class="nav-link">Threat Graphs</a></li>
+          <li><a href="#projects" class="nav-link">Tools</a></li>
+          <li><a href="#intel" class="nav-link">Threat Intel</a></li>
+          <li><a href="#arsenal" class="nav-link">Arsenal</a></li>
+          <li><a href="#certifications" class="nav-link">Credentials</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-xs btn-primary nav-pill-btn">
+          <span>Connect</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-pulse"></span>
+            <span>CYBERSECURITY ANALYST & SECURITY AUTOMATION</span>
+            <span class="badge-sep">•</span>
+            <span class="location-text">Abuja, Nigeria 🇳🇬</span>
+          </div>
+
+          <h1 class="hero-title">
+            Defending Systems.<br>
+            <span class="gradient-text">Dissecting Threats.</span><br>
+            Automating Response.
+          </h1>
+
+          <p class="hero-summary">
+            I am <strong>Sodiq Badmus</strong> — a Cybersecurity Analyst & Security Automation Engineer ranked in the <strong>Global Top 1% on TryHackMe</strong>. I specialize in Digital Forensics & Incident Response (DFIR), malware analysis, threat intelligence engineering (MISP / MITRE ATT&CK), and building production-grade Python security software to fortify organizational defenses.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                <polyline points="2 17 12 22 22 17"/>
+                <polyline points="2 12 12 17 22 12"/>
+              </svg>
+              <span>Explore Security Tools</span>
+            </a>
+            
+            <a href="https://github.com/iampopg" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              <span>GitHub (25+ Repos)</span>
+            </a>
+
+            <a href="#analytics" class="btn btn-outline">
+              <span>View Threat Graphs</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Key Metrics Grid -->
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <div class="metric-value"><span class="counter" data-target="1">1</span>%</div>
+              <div class="metric-label">Global TryHackMe Rank</div>
+              <div class="metric-sub">Top 1% Worldwide</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-value"><span class="counter" data-target="12">12</span>+</div>
+              <div class="metric-label">Verified Certifications</div>
+              <div class="metric-sub">CCFA, SAL1, Google, ISO</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-value"><span class="counter" data-target="30">30</span> GB</div>
+              <div class="metric-label">Forensic Recovery</div>
+              <div class="metric-sub">Formatted Drive Extraction</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-value"><span class="counter" data-target="4">4</span>+</div>
+              <div class="metric-label">Security Tools Built</div>
+              <div class="metric-sub">PhishGuard, ZUMA, UTD</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Card -->
+        <div class="hero-visual">
+          <div class="executive-profile-card">
+            
+            <div class="profile-card-topbar">
+              <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="card-identity-tag">sodiq.badmus // analyst</div>
+              <div class="live-status">
+                <span class="live-dot"></span>
+                <span>ACTIVE</span>
+              </div>
+            </div>
+
+            <div class="profile-portrait-frame">
+              <img src="me.png" alt="Sodiq Badmus — Cybersecurity Analyst & Security Automation Engineer" class="profile-portrait" loading="eager">
+              <div class="portrait-hud-corners">
+                <span class="corner tl"></span>
+                <span class="corner tr"></span>
+                <span class="corner bl"></span>
+                <span class="corner br"></span>
+              </div>
+              <div class="portrait-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+                <span>TryHackMe Top 1% Global</span>
+              </div>
+            </div>
+
+            <div class="profile-card-meta">
+              <div class="meta-name-row">
+                <div>
+                  <h2 class="profile-name">Sodiq Badmus</h2>
+                  <p class="profile-role">Cybersecurity Analyst & Tooling Engineer</p>
+                </div>
+                <div class="location-flag">🇳🇬</div>
+              </div>
+
+              <div class="telemetry-tags">
+                <span class="t-tag">DFIR & Memory Forensics</span>
+                <span class="t-tag">Malware Triage</span>
+                <span class="t-tag">Python Automation</span>
+                <span class="t-tag">MISP & MITRE ATT&CK</span>
+                <span class="t-tag">Splunk SIEM</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== LIVE SOC TELEMETRY CONSOLE ===== -->
+    <section class="section telemetry-section" id="console">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 01</span>
+            <span>LIVE DEFENSIVE TELEMETRY</span>
+          </div>
+          <h2 class="section-title">Security Operations Console</h2>
+          <p class="section-subtitle">Real-time inspection of analytical workflows, automated detections, and threat triage pipelines.</p>
+        </div>
+
+        <div class="soc-console-wrapper">
+          <div class="console-tab-bar">
+            <button class="console-tab active" data-tab="phishguard">
+              <span class="tab-icon">✉️</span>
+              <span>PhishGuard (Email Triage)</span>
+            </button>
+            <button class="console-tab" data-tab="intel">
+              <span class="tab-icon">🧬</span>
+              <span>Project MIA (Threat Intel)</span>
+            </button>
+            <button class="console-tab" data-tab="dfir">
+              <span class="tab-icon">🔍</span>
+              <span>DFIR Memory & Disk Carving</span>
+            </button>
+            <button class="console-tab" data-tab="cspm">
+              <span class="tab-icon">☁️</span>
+              <span>ZUMA (Cloud Posture)</span>
+            </button>
+          </div>
+
+          <div class="console-viewport">
+            
+            <!-- View 1: PhishGuard -->
+            <div class="console-pane active" id="pane-phishguard">
+              <div class="console-code-header">
+                <span class="terminal-prompt">sodiq@sec-ops:~$</span>
+                <span class="cmd-run">phishguard analyze --eml ./samples/invoice_urgent.eml --export cef</span>
+                <span class="timestamp">[2026-08-18 13:20:04 UTC]</span>
+              </div>
+              <pre class="console-output"><code><span class="c-dim">[+] Parsing RFC 5322 Inbound Stream: invoice_urgent.eml</span>
+<span class="c-dim">[+] Ingestion Complete: Sender="accounts-billing@micros0ft-support.online", Reply-To="c2-drop@attacker-relay.cc"</span>
+<span class="c-accent">[*] Executing 9 Detection Analyzers...</span>
+    ├─ [FAIL] SPF Check: PermError (Domain mismatch: spf1 ip4:185.220.101.5 ~all)
+    ├─ [FAIL] DKIM Signature: Invalid Header Hashes (Body altered in transit)
+    ├─ [FAIL] DMARC Policy: REJECT (pct=100)
+    ├─ [WARN] Domain Age: Registered 3 days ago (Registrar: NameCheap Inc)
+    ├─ [WARN] Typosquatting Analyzer: 94.2% Levenshtein similarity to "microsoft.com"
+    ├─ [CRIT] Behavioral BEC: Urgency Keyword Cluster ("Immediate Wire Transfer", "Account Suspension")
+    ├─ [CRIT] Attachment Triage: "invoice_aug.vbs" (Embedded PowerShell Obfuscation detected)
+    └─ [FAIL] IntelHub Threat Match: URLhaus match for domain "micros0ft-support.online"
+<span class="c-danger">[!] VERDICT: MALICIOUS PHISHING (Risk Score: 96 / 100)</span>
+<span class="c-success">[✓] Syslog Action: CEF payload dispatched to Splunk SIEM port 514</span>
+<span class="c-success">[✓] Automated Remediation: Message tagged for Quarantine; Host endpoint flagged for investigation</span></code></pre>
+            </div>
+
+            <!-- View 2: MIA Threat Intel -->
+            <div class="console-pane" id="pane-intel">
+              <div class="console-code-header">
+                <span class="terminal-prompt">sodiq@misp-hub:~$</span>
+                <span class="cmd-run">misp-cli --event "MIA-2025-BLAZE" --correlate-attck</span>
+                <span class="timestamp">[2026-08-18 13:20:10 UTC]</span>
+              </div>
+              <pre class="console-output"><code><span class="c-accent">[*] Project MIA — Malware Intelligence in Africa Central Correlation</span>
+<span class="c-dim">[+] Target Family: Blaze Stealer / Agent Tesla Variant</span>
+<span class="c-dim">[+] High-Confidence IOCs Centralized:</span>
+    ├─ SHA-256: 7f8a9e2d1c4b5a6e7f8a9e2d1c4b5a6e7f8a9e2d1c4b5a6e7f8a9e2d1c4b5a6e
+    ├─ C2 Server: 104.244.78.19:8080 (TCP / Encrypted Payload Exchange)
+    ├─ Mutex: Global\BlazeStealer_LocalPersistence_v4
+    └─ Registry Key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run\WindowsSecurityUpdate
+<span class="c-accent">[*] MITRE ATT&CK Matrix Mapping:</span>
+    ├─ T1566.001 (Spearphishing Attachment)
+    ├─ T1059.001 (PowerShell Execution)
+    ├─ T1547.001 (Registry Run Keys / Startup Folder)
+    ├─ T1003.001 (OS Credential Dumping: LSASS Memory)
+    └─ T1041 (Exfiltration Over C2 Channel)
+<span class="c-success">[✓] MISP Event #4182 Synchronized across Regional SOC Distribution Feed</span></code></pre>
+            </div>
+
+            <!-- View 3: DFIR -->
+            <div class="console-pane" id="pane-dfir">
+              <div class="console-code-header">
+                <span class="terminal-prompt">sodiq@forensics-lab:~$</span>
+                <span class="cmd-run">volatility3 -f memory_dump.raw windows.malfind.Malfind</span>
+                <span class="timestamp">[2026-08-18 13:20:15 UTC]</span>
+              </div>
+              <pre class="console-output"><code><span class="c-dim">[+] Memory Image: memory_dump.raw (Windows 10 x64 Enterprise 19044)</span>
+<span class="c-accent">[*] Scanning VAD Trees for PAGE_EXECUTE_READWRITE memory regions...</span>
+    ├─ PID: 4820 (svchost.exe) | BaseAddress: 0x0000018a4c800000 | Commit: PAGE_EXECUTE_READWRITE
+    ├─ Disassembly Triage: Injected Shellcode stub detected (MZ header present in heap)
+    ├─ Heuristic: Process Hollowed svchost.exe communicating with unverified external IP
+<span class="c-dim">[+] Physical Drive File Carving (Belkasoft Engine):</span>
+    ├─ Partition Status: Formatted NTFS Partition / Sanitized MFT
+    ├─ Deep Carving: 30,720 MB (30 GB) raw artifact volume extracted
+    └─ Artifacts Reconstructed: 4,120 SQLite communication records + 840 deleted system event logs
+<span class="c-success">[✓] Chain of Custody Verified: Evidence Package Signed SHA-256</span></code></pre>
+            </div>
+
+            <!-- View 4: ZUMA CSPM -->
+            <div class="console-pane" id="pane-cspm">
+              <div class="console-code-header">
+                <span class="terminal-prompt">sodiq@zuma-cspm:~$</span>
+                <span class="cmd-run">zuma audit --provider aws,azure,gcp --compliance nitda-2024</span>
+                <span class="timestamp">[2026-08-18 13:20:20 UTC]</span>
+              </div>
+              <pre class="console-output"><code><span class="c-accent">[*] ZUMA Multi-Cloud Security Posture Audit Initialized</span>
+<span class="c-dim">[+] Scope: 14 AWS Accounts, 6 Azure Subscriptions, 4 GCP Projects</span>
+    ├─ AWS S3 Public Access: 2 Buckets without Public Block (CRITICAL: Remediation auto-queued)
+    ├─ AWS IAM: 4 Inactive Credentials with root access privileges detected
+    ├─ Azure NSG: Inbound SSH (Port 22) open to 0.0.0.0/0 on 3 Bastion hosts
+    └─ GCP Storage: Default encryption without customer-managed keys (NITDA Sec 4.2 warning)
+<span class="c-accent">[*] Regulatory Compliance Score (NITDA & ISO 27001): 88.4%</span>
+<span class="c-success">[✓] Comprehensive Executive Audit & Remediation Playbook Generated: ./zuma_report.pdf</span></code></pre>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INTERACTIVE THREAT GRAPHS & DEFENSE ANALYTICS ===== -->
+    <section class="section analytics-section" id="analytics">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 02</span>
+            <span>VISUAL ANALYTICS & DEFENSE METRICS</span>
+          </div>
+          <h2 class="section-title">Threat Intelligence & Forensic Visualizations</h2>
+          <p class="section-subtitle">Visual representation of adversarial mapping, automated triage pipelines, and forensic data carving.</p>
+        </div>
+
+        <div class="analytics-grid">
+          
+          <!-- Graph 1: MITRE ATT&CK Defense Coverage Heatmap -->
+          <div class="analytics-card">
+            <div class="analytics-card-header">
+              <div>
+                <h3 class="analytics-card-title">MITRE ATT&CK® Tactic Coverage Heatmap</h3>
+                <p class="analytics-card-sub">Adversary Behavior Mapping & Rule Detection Depth</p>
+              </div>
+              <span class="analytics-badge">94.8% Coverage</span>
+            </div>
+
+            <div class="mitre-graph-container">
+              
+              <div class="mitre-bar-item">
+                <div class="bar-info">
+                  <span class="tactic-name">Initial Access (T1566 Phishing)</span>
+                  <span class="tactic-pct">98%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-cyan" style="width: 98%;"></div>
+                </div>
+              </div>
+
+              <div class="mitre-bar-item">
+                <div class="bar-info">
+                  <span class="tactic-name">Execution (T1059 PowerShell / Scripts)</span>
+                  <span class="tactic-pct">94%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-indigo" style="width: 94%;"></div>
+                </div>
+              </div>
+
+              <div class="mitre-bar-item">
+                <div class="bar-info">
+                  <span class="tactic-name">Persistence (T1547 Registry Run / Daemons)</span>
+                  <span class="tactic-pct">96%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-emerald" style="width: 96%;"></div>
+                </div>
+              </div>
+
+              <div class="mitre-bar-item">
+                <div class="bar-info">
+                  <span class="tactic-name">Credential Access (T1003 LSASS Dump)</span>
+                  <span class="tactic-pct">91%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-purple" style="width: 91%;"></div>
+                </div>
+              </div>
+
+              <div class="mitre-bar-item">
+                <div class="bar-info">
+                  <span class="tactic-name">Exfiltration & C2 (T1041 Encrypted Channel)</span>
+                  <span class="tactic-pct">95%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-amber" style="width: 95%;"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="graph-legend">
+              <span class="legend-item"><span class="legend-dot cyan"></span> PhishGuard</span>
+              <span class="legend-item"><span class="legend-dot indigo"></span> Project MIA</span>
+              <span class="legend-item"><span class="legend-dot emerald"></span> Persistence-Finder</span>
+              <span class="legend-item"><span class="legend-dot purple"></span> DFIR Memory</span>
+            </div>
+          </div>
+
+          <!-- Graph 2: Visual Pipeline Flow Diagram -->
+          <div class="analytics-card">
+            <div class="analytics-card-header">
+              <div>
+                <h3 class="analytics-card-title">PhishGuard Automated Pipeline Topology</h3>
+                <p class="analytics-card-sub">Inbound Email Stream → 9 Analyzers → SIEM Action</p>
+              </div>
+              <span class="analytics-badge live">Live Flow</span>
+            </div>
+
+            <div class="pipeline-flow-diagram">
+              
+              <div class="flow-step-node">
+                <div class="node-icon mail">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="node-text">
+                  <strong>Inbound Ingestion</strong>
+                  <span>.EML / IMAP Stream</span>
+                </div>
+              </div>
+
+              <div class="flow-connector">
+                <span class="flow-line"></span>
+                <span class="flow-arrow">▼</span>
+              </div>
+
+              <div class="flow-step-node highlight-node">
+                <div class="node-icon engine">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                </div>
+                <div class="node-text">
+                  <strong>9 Heuristic & NLP Analyzers</strong>
+                  <span>SPF/DKIM + Typosquat + BEC + Obfuscation</span>
+                </div>
+              </div>
+
+              <div class="flow-connector">
+                <span class="flow-line"></span>
+                <span class="flow-arrow">▼</span>
+              </div>
+
+              <div class="flow-split-row">
+                <div class="flow-step-node outcome-node safe">
+                  <span class="outcome-tag safe">BENIGN (0-30)</span>
+                  <span>Pass to Inbox</span>
+                </div>
+                <div class="flow-step-node outcome-node alert">
+                  <span class="outcome-tag alert">SUSPICIOUS (31-74)</span>
+                  <span>Analyst Banner</span>
+                </div>
+                <div class="flow-step-node outcome-node danger">
+                  <span class="outcome-tag danger">MALICIOUS (75-100)</span>
+                  <span>Splunk CEF + Quarantine</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT / PROFILE ===== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 03</span>
+            <span>PROFILE & COMPETENCIES</span>
+          </div>
+          <h2 class="section-title">Engineered for Defense. Built for Scale.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio-card">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </div>
+            <h3>Defensive Security Profile</h3>
+            <p>
+              I am a <strong>Cybersecurity Analyst & Security Automation Engineer</strong> with extensive hands-on experience across <strong>Digital Forensics & Incident Response (DFIR)</strong>, <strong>Malware Analysis</strong>, and <strong>Threat Intelligence Engineering</strong>. I hold a <strong>B.Sc. in Computer Science</strong> and approach defensive operations through software engineering rigor.
+            </p>
+            <p>
+              At <strong>Digital Footprints</strong>, I conduct real-world security investigations, analyze threat payloads, and contribute to the <strong>MIA (Malware Intelligence in Africa)</strong> threat research initiative. My focus is eliminating repetitive manual analyst bottlenecks by authoring robust open-source tools in Python, including <strong>PhishGuard</strong>, <strong>ZUMA CSPM</strong>, <strong>UTD-CVE-Manager</strong>, and <strong>persistence-finder</strong>.
+            </p>
+          </div>
+
+          <div class="about-card highlights-card">
+            <h3>Verified Engineering Competencies</h3>
+            <ul class="highlights-list">
+              <li>
+                <div class="highlight-bullet"></div>
+                <div>
+                  <strong>Global Top 1% TryHackMe Performer:</strong> Demonstrated practical mastery across complex SOC triage, network forensics, Windows/Linux memory analysis, and defensive operations.
+                </div>
+              </li>
+              <li>
+                <div class="highlight-bullet"></div>
+                <div>
+                  <strong>Threat Research — Project MIA:</strong> Conducting continuous threat intelligence research into malware campaigns (Blaze Stealer, Agent Tesla) targeting African and Nigerian enterprise systems.
+                </div>
+              </li>
+              <li>
+                <div class="highlight-bullet"></div>
+                <div>
+                  <strong>Security Tooling Engineering:</strong> Architected and published 4+ production-grade defensive security frameworks on GitHub spanning email security, cloud posture, and host persistence hunting.
+                </div>
+              </li>
+              <li>
+                <div class="highlight-bullet"></div>
+                <div>
+                  <strong>Deep Data & Artifact Recovery:</strong> Successfully reconstructed and extracted <strong>30 GB</strong> of critical evidentiary and user files from sanitized/formatted media using physical disk forensics.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="info-strip-grid">
+          <div class="info-strip-item">
+            <span class="strip-label">Location</span>
+            <span class="strip-value">Abuja, Nigeria 🇳🇬 (Open to Remote / Relocation)</span>
+          </div>
+          <div class="info-strip-item">
+            <span class="strip-label">Education</span>
+            <span class="strip-value">B.Sc. Computer Science — Kwara State University</span>
+          </div>
+          <div class="info-strip-item">
+            <span class="strip-label">Direct Email</span>
+            <span class="strip-value">iampopg@proton.me</span>
+          </div>
+          <div class="info-strip-item">
+            <span class="strip-label">Primary Stack</span>
+            <span class="strip-value">Python, MISP, Splunk, Wireshark, Belkasoft, Volatility</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CORE SPECIALIZATION PILLARS ===== -->
+    <section class="section" id="specialization">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 04</span>
+            <span>TECHNICAL DOMAINS</span>
+          </div>
+          <h2 class="section-title">Core Security Disciplines</h2>
+          <p class="section-subtitle">Dedicated to defensive engineering, threat hunting, and automated incident response.</p>
+        </div>
+
+        <div class="specialization-grid">
+          
+          <!-- Pillar 1: DFIR -->
+          <div class="spec-card">
+            <div class="spec-card-top">
+              <div class="spec-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"/>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                  <path d="M11 8v6"/>
+                  <path d="M8 11h6"/>
+                </svg>
+              </div>
+              <span class="spec-num">01</span>
+            </div>
+            <h3 class="spec-title">Digital Forensics & Incident Response (DFIR)</h3>
+            <p class="spec-desc">
+              Executing thorough post-breach investigations, volatile memory acquisitions with Volatility, and deep disk carving. Certified in computer forensics (CCFA) and advanced SQLite artifact recovery.
+            </p>
+            <ul class="spec-points">
+              <li>Windows & Linux Memory Forensics (Process Injection & DLL Triage)</li>
+              <li>Disk Acquisition & Formatted Media Data Recovery (30GB+)</li>
+              <li>Artifact Extraction & Timeline Reconstruction (Belkasoft)</li>
+              <li>Root Cause Analysis & Comprehensive Remediation Reporting</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 2: SOC Operations & Cloud Defense (MOVED TO 2ND) -->
+          <div class="spec-card">
+            <div class="spec-card-top">
+              <div class="spec-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </div>
+              <span class="spec-num">02</span>
+            </div>
+            <h3 class="spec-title">SOC Operations & Cloud Security Posture</h3>
+            <p class="spec-desc">
+              Monitoring telemetry, correlating logs across enterprise SIEM platforms, analyzing packet captures, and evaluating multi-cloud security posture compliance.
+            </p>
+            <ul class="spec-points">
+              <li>Splunk SIEM Log Analysis, Anomaly Detection & Dashboards</li>
+              <li>Wireshark & tcpdump Packet Stream Reconstruction</li>
+              <li>Cloud Security Posture Management (CSPM on AWS/Azure/GCP)</li>
+              <li>Firewall Rule Hardening, IDS/IPS & OpenVPN Deployments</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 3: Security Automation -->
+          <div class="spec-card">
+            <div class="spec-card-top">
+              <div class="spec-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"/>
+                  <polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <span class="spec-num">03</span>
+            </div>
+            <h3 class="spec-title">Security Automation & Tool Engineering</h3>
+            <p class="spec-desc">
+              Eliminating manual overhead by building custom Python scanners, automated ingestion pipelines, and posture assessment engines tailored to enterprise SOC environments.
+            </p>
+            <ul class="spec-points">
+              <li>Custom Python Security Tools & API Orchestration</li>
+              <li>Phishing & Inbound Mail RFC Inspection Engines (PhishGuard)</li>
+              <li>Automated Vulnerability & NVD API Pipeline Sync (UTD-CVE-Manager)</li>
+              <li>Endpoint Persistence Mechanism Detection Engines (persistence-finder)</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 4: Malware Analysis & Threat Intel (MOVED TO LAST) -->
+          <div class="spec-card">
+            <div class="spec-card-top">
+              <div class="spec-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="M12 8v4"/>
+                  <path d="M12 16h.01"/>
+                </svg>
+              </div>
+              <span class="spec-num">04</span>
+            </div>
+            <h3 class="spec-title">Malware Analysis & Threat Intelligence</h3>
+            <p class="spec-desc">
+              Deconstructing malicious payloads (ransomware, loaders, infostealers) in sandboxed environments, extracting high-confidence IOCs, and publishing feeds via MISP.
+            </p>
+            <ul class="spec-points">
+              <li>Static & Dynamic Behavioral Malware Triage (ANY.RUN, VirusTotal)</li>
+              <li>IOC Extraction (Hashes, C2 IP/Domains, Mutexes, Persistence Hooks)</li>
+              <li>MISP Threat Event Creation, Tagging, and Correlation</li>
+              <li>MITRE ATT&CK Behavioral Mapping & Detection Rule Engineering</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED PROJECTS & OPEN-SOURCE SECURITY TOOLS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 05</span>
+            <span>SECURITY TOOLING ARSENAL</span>
+          </div>
+          <h2 class="section-title">Open-Source Defensive Software</h2>
+          <p class="section-subtitle">Production-grade security platforms engineered to detect, audit, and remediate across endpoints, mail, and cloud.</p>
+        </div>
+
+        <div class="projects-stack">
+
+          <!-- Project 1: PhishGuard (FLAGSHIP) -->
+          <article class="project-box">
+            <div class="project-box-header">
+              <div class="project-meta">
+                <span class="project-type-tag">EMAIL SECURITY & DETECTION ENGINE</span>
+                <span class="project-year">2026</span>
+              </div>
+              <a href="https://github.com/iampopg/PhishGuard" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View PhishGuard on GitHub">
+                <span>github.com/iampopg/PhishGuard</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="project-body-grid">
+              <div class="project-text">
+                <h3 class="project-heading">PhishGuard — Self-Hosted Email Phishing & BEC Detection Engine</h3>
+                <p class="project-lead">
+                  An industrial-grade, self-hosted, offline-first email security engine that ingests messages (.eml, raw text, or live IMAP) and executes 9 transparent analyzers to generate weighted, auditable verdicts with detections-as-code rules.
+                </p>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span><strong>9 Analyzers:</strong> SPF/DKIM/DMARC auth, domain aging, NLP/content, attachments, BEC baseline, and sandboxing</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span><strong>Dual Interface:</strong> High-performance Python CLI and Next.js 14 + FastAPI single-port web control plane</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span><strong>SIEM Integration:</strong> Syslog export (CEF / JSON) & Webhooks with automated post-delivery triage</span>
+                  </div>
+                </div>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">Python 3.10+</span>
+                  <span class="tech-tag">FastAPI</span>
+                  <span class="tech-tag">Next.js 14</span>
+                  <span class="tech-tag">IMAP Fetcher</span>
+                  <span class="tech-tag">SIEM Export (CEF)</span>
+                  <span class="tech-tag">Threat Feeds</span>
+                </div>
+              </div>
+
+              <div class="project-code-panel">
+                <div class="code-header">
+                  <span class="code-lang">python // phishguard_pipeline.py</span>
+                  <span class="code-badge">Detection Engine</span>
+                </div>
+                <pre class="code-content"><code><span class="c-comment"># PhishGuard — 9-Layer Inbound Mail Triage</span>
+<span class="c-keyword">from</span> phishguard.pipeline <span class="c-keyword">import</span> analyze_email
+<span class="c-keyword">from</span> phishguard.mail <span class="c-keyword">import</span> RFCParser
+
+msg = RFCParser.from_eml(<span class="c-string">"suspect_invoice.eml"</span>)
+report = analyze_email(msg, enable_enrichment=<span class="c-keyword">True</span>)
+
+<span class="c-keyword">if</span> report.risk_score >= <span class="c-number">75</span>:  <span class="c-comment"># Malicious / Phishing</span>
+    report.export_to_siem(format=<span class="c-string">"CEF"</span>)
+    report.trigger_quarantine_action()</code></pre>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: ZUMA CSPM -->
+          <article class="project-box">
+            <div class="project-box-header">
+              <div class="project-meta">
+                <span class="project-type-tag">CLOUD SECURITY & COMPLIANCE</span>
+                <span class="project-year">2025</span>
+              </div>
+              <a href="https://github.com/iampopg/zuma" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View ZUMA on GitHub">
+                <span>github.com/iampopg/zuma</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="project-body-grid">
+              <div class="project-text">
+                <h3 class="project-heading">ZUMA — Cloud Security Posture Management (CSPM) Platform</h3>
+                <p class="project-lead">
+                  An enterprise CSPM platform engineered for businesses and public sector organizations to automatically audit multi-cloud infrastructure against global benchmarks and localized regulatory frameworks (including NITDA compliance).
+                </p>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Multi-Cloud Audit Coverage (AWS, Microsoft Azure, Google Cloud Platform)</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Built upon the Prowler engine with custom automated compliance mapping</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Automated executive remediation reporting and misconfiguration scoring</span>
+                  </div>
+                </div>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">AWS</span>
+                  <span class="tech-tag">Azure</span>
+                  <span class="tech-tag">GCP</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Prowler</span>
+                  <span class="tech-tag">CSPM</span>
+                  <span class="tech-tag">NITDA / ISO 27001</span>
+                </div>
+              </div>
+
+              <div class="project-code-panel">
+                <div class="code-header">
+                  <span class="code-lang">python // zuma_audit.py</span>
+                  <span class="code-badge">CSPM Engine</span>
+                </div>
+                <pre class="code-content"><code><span class="c-comment"># ZUMA — Multi-Cloud Posture Audit</span>
+<span class="c-keyword">from</span> zuma.core <span class="c-keyword">import</span> CloudAuditor
+<span class="c-keyword">from</span> zuma.compliance <span class="c-keyword">import</span> NITDAFramework
+
+auditor = CloudAuditor(
+    provider=<span class="c-string">"aws"</span>,
+    regions=[<span class="c-string">"af-south-1"</span>, <span class="c-string">"eu-west-1"</span>],
+    framework=NITDAFramework.LATEST
+)
+
+report = auditor.run_compliance_scan()
+auditor.generate_executive_summary(report)</code></pre>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: UTD-CVE-Manager -->
+          <article class="project-box">
+            <div class="project-box-header">
+              <div class="project-meta">
+                <span class="project-type-tag">VULNERABILITY MANAGEMENT</span>
+                <span class="project-year">2025</span>
+              </div>
+              <a href="https://github.com/iampopg/UTD-CVE-Manager" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View UTD-CVE-Manager on GitHub">
+                <span>github.com/iampopg/UTD-CVE-Manager</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="project-body-grid">
+              <div class="project-text">
+                <h3 class="project-heading">UTD-CVE-Manager — Enterprise Vulnerability Management System</h3>
+                <p class="project-lead">
+                  An automated vulnerability intelligence and system auditing framework with real-time National Vulnerability Database (NVD) syncing, installed software discovery, and an interactive EDR-style security dashboard.
+                </p>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Continuous CVE feed synchronization with NIST / NVD API</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Cross-platform host inventory discovery and version matching</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>CVSS v3.1 severity prioritization with automated alerting triggers</span>
+                  </div>
+                </div>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">NVD API</span>
+                  <span class="tech-tag">CVE Intelligence</span>
+                  <span class="tech-tag">Vulnerability Scanner</span>
+                  <span class="tech-tag">EDR Dashboard</span>
+                </div>
+              </div>
+
+              <div class="project-code-panel">
+                <div class="code-header">
+                  <span class="code-lang">python // cve_scanner.py</span>
+                  <span class="code-badge">Threat Pipeline</span>
+                </div>
+                <pre class="code-content"><code><span class="c-comment"># UTD — Automated CVE Correlator</span>
+<span class="c-keyword">from</span> utd.scanner <span class="c-keyword">import</span> HostDiscovery
+<span class="c-keyword">from</span> utd.nvd <span class="c-keyword">import</span> NVDClient
+
+host_pkgs = HostDiscovery().enumerate_installed()
+client = NVDClient(min_cvss=<span class="c-number">7.5</span>)
+
+critical_cves = client.correlate_cves(host_pkgs)
+<span class="c-keyword">for</span> cve <span class="c-keyword">in</span> critical_cves:
+    cve.trigger_soc_alert(priority=<span class="c-string">"HIGH"</span>)</code></pre>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: persistence-finder -->
+          <article class="project-box">
+            <div class="project-box-header">
+              <div class="project-meta">
+                <span class="project-type-tag">MALWARE DEFENSE & DETECTION</span>
+                <span class="project-year">2025</span>
+              </div>
+              <a href="https://github.com/iampopg/persistence-finder" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View persistence-finder on GitHub">
+                <span>github.com/iampopg/persistence-finder</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="project-body-grid">
+              <div class="project-text">
+                <h3 class="project-heading">persistence-finder — Cross-Platform Persistence Detector</h3>
+                <p class="project-lead">
+                  A high-speed defensive security tool designed to identify and flag unauthorized persistence mechanisms established by malware across Linux, Windows, and macOS endpoints.
+                </p>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Inspects Cron jobs, systemd services, Windows Registry Run keys, and LaunchDaemons</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Includes both a fast CLI engine and an interactive browser-based review UI</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Generates SHA-256 binary hashes of suspicious persistence binaries</span>
+                  </div>
+                </div>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">Linux</span>
+                  <span class="tech-tag">Windows Internals</span>
+                  <span class="tech-tag">macOS</span>
+                  <span class="tech-tag">Malware Detection</span>
+                  <span class="tech-tag">Endpoint Security</span>
+                </div>
+              </div>
+
+              <div class="project-code-panel">
+                <div class="code-header">
+                  <span class="code-lang">python // hunter.py</span>
+                  <span class="code-badge">Host Triage</span>
+                </div>
+                <pre class="code-content"><code><span class="c-comment"># persistence-finder: endpoint deep scan</span>
+<span class="c-keyword">from</span> finder.engine <span class="c-keyword">import</span> PersistenceHunter
+
+hunter = PersistenceHunter(target_os=<span class="c-string">"auto"</span>)
+findings = hunter.scan_all_vectors()
+
+<span class="c-keyword">for</span> artifact <span class="c-keyword">in</span> findings:
+    <span class="c-keyword">if</span> artifact.is_suspicious:
+        artifact.extract_ioc_hash()</code></pre>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== THREAT INTEL CASE STUDY: PROJECT MIA ===== -->
+    <section class="section threat-intel-section" id="intel">
+      <div class="container">
+        <div class="intel-card">
+          <div class="intel-head">
+            <div class="intel-badge">
+              <span class="intel-dot"></span>
+              <span>SPECIAL THREAT RESEARCH INITIATIVE</span>
+            </div>
+            <span class="intel-lead-tag">DIGITAL FOOTPRINTS // 2025</span>
+          </div>
+
+          <div class="intel-content-grid">
+            <div class="intel-info">
+              <h2 class="intel-title">MIA — Malware Intelligence in Africa</h2>
+              <p class="intel-desc">
+                Conducting active threat research for MIA at Digital Footprints, focusing on analyzing malware campaigns and adversaries targeting African enterprise infrastructure and Nigerian organizations.
+              </p>
+
+              <div class="intel-highlights">
+                <div class="intel-h-item">
+                  <div class="h-icon">🔬</div>
+                  <div>
+                    <strong>Malware Families Analyzed:</strong> In-depth static/dynamic triage of <em>Blaze Stealer</em>, <em>Agent Tesla</em>, and specialized banking Trojans/Ransomware.
+                  </div>
+                </div>
+                <div class="intel-h-item">
+                  <div class="h-icon">🛡️</div>
+                  <div>
+                    <strong>MISP Centralization:</strong> Extracted, validated, and published high-confidence IOCs (C2 IPs, domains, hashes, mutexes) for SOC correlation.
+                  </div>
+                </div>
+                <div class="intel-h-item">
+                  <div class="h-icon">🎯</div>
+                  <div>
+                    <strong>MITRE ATT&CK Mapping:</strong> Mapped observed adversary behaviors to MITRE tactics (Initial Access, Execution, Persistence, Exfiltration) to build defensive detection rules.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="intel-tools-box">
+              <div class="tools-box-title">Investigation & Threat Intel Stack</div>
+              <div class="intel-tool-chips">
+                <span class="chip">MISP</span>
+                <span class="chip">ANY.RUN</span>
+                <span class="chip">VirusTotal Enterprise</span>
+                <span class="chip">MalwareBazaar</span>
+                <span class="chip">Wireshark</span>
+                <span class="chip">YARA</span>
+                <span class="chip">MITRE ATT&CK</span>
+                <span class="chip">OSINT Framework</span>
+              </div>
+              <div class="intel-quote">
+                "Transforming raw telemetry into structured, actionable intelligence for SOC analysts and incident response teams."
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TECHNICAL ARSENAL & TOOLING MATRIX ===== -->
+    <section class="section" id="arsenal">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 06</span>
+            <span>HANDS-ON COMPETENCY</span>
+          </div>
+          <h2 class="section-title">The Technical Arsenal</h2>
+          <p class="section-subtitle">Hardcore defensive engineering tools, forensic suites, and protocols deployed across daily operations.</p>
+        </div>
+
+        <div class="arsenal-grid">
+
+          <!-- Category 1: DFIR -->
+          <div class="arsenal-card priority-card">
+            <div class="arsenal-header">
+              <div class="arsenal-icon-shield">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><circle cx="12" cy="11" r="3"/></svg>
+              </div>
+              <h3>Digital Forensics & Incident Response (DFIR)</h3>
+            </div>
+            <div class="arsenal-tags">
+              <span class="tag-pill expert">Memory Forensics (Volatility)</span>
+              <span class="tag-pill expert">Disk Forensics & File Recovery (30GB)</span>
+              <span class="tag-pill expert">Belkasoft Evidence Center</span>
+              <span class="tag-pill expert">SQLite Forensic Analysis</span>
+              <span class="tag-pill">Timeline & Artifact Extraction</span>
+              <span class="tag-pill">Windows Event Log Forensics</span>
+              <span class="tag-pill">Process Injection Triage</span>
+              <span class="tag-pill">Registry Hive Analysis</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Malware Analysis -->
+          <div class="arsenal-card priority-card">
+            <div class="arsenal-header">
+              <div class="arsenal-icon-shield">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="8"/></svg>
+              </div>
+              <h3>Malware Triage & Threat Intelligence</h3>
+            </div>
+            <div class="arsenal-tags">
+              <span class="tag-pill expert">Static & Dynamic Malware Triage</span>
+              <span class="tag-pill expert">MISP Threat Sharing & Event Creation</span>
+              <span class="tag-pill expert">MITRE ATT&CK Matrix Mapping</span>
+              <span class="tag-pill expert">Python Malware Analysis</span>
+              <span class="tag-pill">ANY.RUN Interactive Sandbox</span>
+              <span class="tag-pill">VirusTotal Enterprise</span>
+              <span class="tag-pill">MalwareBazaar</span>
+              <span class="tag-pill">IOC Extraction & Formatting</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Security Automation -->
+          <div class="arsenal-card priority-card">
+            <div class="arsenal-header">
+              <div class="arsenal-icon-shield">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3>Security Tooling & Automation Engineering</h3>
+            </div>
+            <div class="arsenal-tags">
+              <span class="tag-pill expert">Python (Security Scripting & SOAR)</span>
+              <span class="tag-pill expert">FastAPI & Custom Security APIs</span>
+              <span class="tag-pill expert">CVE & NVD Feed Sync Engines</span>
+              <span class="tag-pill">RFC 5322 Inbound Mail Parsers</span>
+              <span class="tag-pill">Bash & Linux Automation</span>
+              <span class="tag-pill">PowerShell Endpoint Scripting</span>
+              <span class="tag-pill">Git & Automated CI/CD Workflows</span>
+            </div>
+          </div>
+
+          <!-- Category 4: SIEM & Network Detection -->
+          <div class="arsenal-card">
+            <div class="arsenal-header">
+              <div class="arsenal-icon-shield">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              </div>
+              <h3>SOC, SIEM & Network Detection</h3>
+            </div>
+            <div class="arsenal-tags">
+              <span class="tag-pill expert">Wireshark Packet Analysis</span>
+              <span class="tag-pill expert">Splunk SIEM (Log Indexing & Search)</span>
+              <span class="tag-pill">tcpdump & NDR Packet Captures</span>
+              <span class="tag-pill">Firewall, IDS & IPS Configuration</span>
+              <span class="tag-pill">OpenVPN Tunnel Architectures</span>
+              <span class="tag-pill">Syslog (CEF / JSON) Ingestion</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Endpoint & Systems Internals -->
+          <div class="arsenal-card">
+            <div class="arsenal-header">
+              <div class="arsenal-icon-shield">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+              </div>
+              <h3>Systems Internals & Cloud Posture</h3>
+            </div>
+            <div class="arsenal-tags">
+              <span class="tag-pill expert">Windows Internals & Registry</span>
+              <span class="tag-pill expert">Linux Systems & Daemons</span>
+              <span class="tag-pill">macOS Persistence Mechanisms</span>
+              <span class="tag-pill">CSPM (Cloud Posture Management)</span>
+              <span class="tag-pill">AWS / Azure / GCP Fundamentals</span>
+              <span class="tag-pill">Prowler Multi-Cloud Engine</span>
+            </div>
+          </div>
+
+          <!-- Category 6: VAPT & Controls -->
+          <div class="arsenal-card">
+            <div class="arsenal-header">
+              <div class="arsenal-icon-shield">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              </div>
+              <h3>Vulnerability Assessment & Reporting</h3>
+            </div>
+            <div class="arsenal-tags">
+              <span class="tag-pill">Vulnerability Assessment (VAPT)</span>
+              <span class="tag-pill">CVSS v3.1 Severity Scoring</span>
+              <span class="tag-pill">Technical Remediation Reporting</span>
+              <span class="tag-pill">ISO 27001 Security Controls</span>
+              <span class="tag-pill">NITDA Cybersecurity Standards</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LICENSES & CERTIFICATIONS VAULT WITH AUTHENTIC BADGES ===== -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 07</span>
+            <span>CREDENTIALS VAULT</span>
+          </div>
+          <h2 class="section-title">Verified Licenses & Certifications</h2>
+          <p class="section-subtitle">Rigorous, examination-tested credentials across digital forensics, SOC defense, and security architecture.</p>
+        </div>
+
+        <div class="certs-container-grid">
+
+          <!-- Cert 1: CCFA (eSecurity Institute) -->
+          <div class="cert-item featured-cert">
+            <div class="cert-status-badge">2026 ACTIVE</div>
+            <div class="cert-badge-visual">
+              <img src="assets/badges/esecurity-ccfa.svg" alt="Certified Computer Forensic Analyst Badge" class="cert-badge-img">
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">Certified Computer Forensic Analyst (CCFA)</h3>
+              <div class="cert-org">eSecurity Institute</div>
+              <div class="cert-category">Digital Forensics & Incident Response</div>
+            </div>
+          </div>
+
+          <!-- Cert 2: TryHackMe SAL1 -->
+          <div class="cert-item featured-cert">
+            <div class="cert-status-badge">2026 ACTIVE</div>
+            <div class="cert-badge-visual">
+              <img src="assets/badges/tryhackme-sal1.svg" alt="TryHackMe SAL1 Badge" class="cert-badge-img">
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">Security Analyst Level 1 (SAL1)</h3>
+              <div class="cert-org">TryHackMe</div>
+              <div class="cert-category">SOC Operations & Threat Hunting</div>
+            </div>
+          </div>
+
+          <!-- Cert 3: Belkasoft Evidence Center -->
+          <div class="cert-item featured-cert">
+            <div class="cert-status-badge">2026 ACTIVE</div>
+            <div class="cert-badge-visual">
+              <img src="assets/badges/belkasoft-sqlite.svg" alt="Belkasoft SQLite Queries Badge" class="cert-badge-img">
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">Advanced SQLite Queries with Belkasoft</h3>
+              <div class="cert-org">Belkasoft Evidence Center</div>
+              <div class="cert-category">Forensic Artifact Recovery</div>
+            </div>
+          </div>
+
+          <!-- Cert 4: TryHackMe Top 1% Global -->
+          <div class="cert-item featured-cert">
+            <div class="cert-status-badge">TOP 1% GLOBAL</div>
+            <div class="cert-badge-visual">
+              <img src="assets/badges/tryhackme-top1.svg" alt="TryHackMe Top 1% Global Badge" class="cert-badge-img">
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">TryHackMe Specialization Certifications (x12)</h3>
+              <div class="cert-org">TryHackMe — Global Performer</div>
+              <div class="cert-category">Practical Security Engineering</div>
+            </div>
+          </div>
+
+          <!-- Cert 5: Google Cybersecurity Professional -->
+          <div class="cert-item">
+            <div class="cert-year-tag">2024</div>
+            <div class="cert-badge-visual">
+              <img src="assets/badges/google-cybersecurity.svg" alt="Google Cybersecurity Professional Badge" class="cert-badge-img">
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">Google Cybersecurity Professional Certificate</h3>
+              <div class="cert-org">Google</div>
+              <div class="cert-category">Comprehensive Defense & Operations</div>
+            </div>
+          </div>
+
+          <!-- Cert 6: ISO 27001 -->
+          <div class="cert-item">
+            <div class="cert-year-tag">2025</div>
+            <div class="cert-badge-visual">
+              <img src="assets/badges/iso27001.svg" alt="ISO 27001 Information Security Badge" class="cert-badge-img">
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">ISO 27001 Information Security</h3>
+              <div class="cert-org">Mastermind</div>
+              <div class="cert-category">Governance & Compliance Controls</div>
+            </div>
+          </div>
+
+          <!-- Cert 7: Academic Degree -->
+          <div class="cert-item">
+            <div class="cert-year-tag">2024</div>
+            <div class="cert-badge-visual">
+              <img src="assets/badges/kwasu-degree.svg" alt="B.Sc. Computer Science Badge" class="cert-badge-img">
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">Bachelor of Science (B.Sc.) in Computer Science</h3>
+              <div class="cert-org">Kwara State University</div>
+              <div class="cert-category">Academic Degree (Sep 2020 – Sep 2023)</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CAREER TRACK RECORD ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">
+            <span class="label-code">// 08</span>
+            <span>CAREER TRACK RECORD</span>
+          </div>
+          <h2 class="section-title">Professional Experience</h2>
+        </div>
+
+        <div class="timeline-container">
+
+          <!-- Role 1: Digital Footprints -->
+          <div class="timeline-entry">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+              <span class="marker-line"></span>
+            </div>
+            <div class="timeline-content-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="role-title">Cybersecurity Analyst</h3>
+                  <div class="company-name">Digital Footprints — <a href="https://digitalfootprints.ng" target="_blank" rel="noopener noreferrer">digitalfootprints.ng</a></div>
+                </div>
+                <div class="role-time-badge">2025 — PRESENT</div>
+              </div>
+              <p class="role-summary">
+                Conducting threat investigations, digital forensics engagements, and participating in the <strong>MIA (Malware Intelligence in Africa)</strong> threat research initiative.
+              </p>
+              <ul class="role-achievements">
+                <li><strong>Forensics & File Recovery:</strong> Performed advanced physical disk and volatile memory forensics, successfully recovering 30GB of critical data from sanitized and formatted storage media.</li>
+                <li><strong>Threat Intelligence & MISP:</strong> Analyzed stealer and loader malware samples; extracted indicators of compromise (IOCs) and mapped adversarial behaviors to the MITRE ATT&CK framework within MISP.</li>
+                <li><strong>VAPT Support:</strong> Participated in vulnerability assessments and penetration tests across customer networks, authoring comprehensive remediation reports.</li>
+                <li><strong>CBS Tutor & Enablement:</strong> Served as Cyber Skill Bridge (CBS) Tutor, delivering hands-on technical labs and VAPT training practicals to junior trainees.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 2: Wrancorp -->
+          <div class="timeline-entry">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+              <span class="marker-line"></span>
+            </div>
+            <div class="timeline-content-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="role-title">Security Analyst</h3>
+                  <div class="company-name">Wrancorp — <a href="https://wrancorp.com" target="_blank" rel="noopener noreferrer">wrancorp.com</a></div>
+                </div>
+                <div class="role-time-badge">MAR 2024</div>
+              </div>
+              <p class="role-summary">
+                Conducted malware investigations and hardened network security architectures for client environments.
+              </p>
+              <ul class="role-achievements">
+                <li>Executed detailed static and dynamic malware analysis against ransomware, trojans, and credential stealers.</li>
+                <li>Performed deep packet analysis to detect suspicious network traffic, egress anomalies, and beaconing behaviors.</li>
+                <li>Configured and managed firewall rules, IDS, and IPS systems to fortify organizational defense perimeters.</li>
+                <li>Developed custom Python automation scripts to streamline repetitive security operations and triage tasks.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 3: KukaVPN -->
+          <div class="timeline-entry">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+              <span class="marker-line"></span>
+            </div>
+            <div class="timeline-content-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="role-title">Python Security Engineer (Contract)</h3>
+                  <div class="company-name">KukaVPN — <a href="https://kukavpn.com" target="_blank" rel="noopener noreferrer">kukavpn.com</a></div>
+                </div>
+                <div class="role-time-badge">NOV 2022 — JAN 2023</div>
+              </div>
+              <p class="role-summary">
+                Engineered secure networking and VPN deployment architectures utilizing OpenVPN protocols.
+              </p>
+              <ul class="role-achievements">
+                <li>Architected and implemented a client VPN application built on top of customized OpenVPN configuration profiles.</li>
+                <li>Integrated the application with online management servers for automated remote deployment and provisioning.</li>
+                <li>Enhanced encrypted remote tunnel reliability, data privacy, and secure communication channels.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 4: SQI -->
+          <div class="timeline-entry">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content-card">
+              <div class="timeline-card-header">
+                <div>
+                  <h3 class="role-title">Cybersecurity Analyst (IT Training)</h3>
+                  <div class="company-name">SQI College of ICT — <a href="https://sqi.edu.ng" target="_blank" rel="noopener noreferrer">sqi.edu.ng</a></div>
+                </div>
+                <div class="role-time-badge">FEB 2022 — NOV 2022</div>
+              </div>
+              <p class="role-summary">
+                Hands-on practical training and development in SIEM log monitoring, packet capture, and security tool scripting.
+              </p>
+              <ul class="role-achievements">
+                <li>Constructed custom Python network scanning scripts to identify vulnerable services and evaluate performance.</li>
+                <li>Captured and dissected live traffic using Wireshark and tcpdump to reconstruct protocols and pinpoint anomalies.</li>
+                <li>Leveraged Splunk SIEM for event correlation, log indexing, and security incident investigations.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT & RECRUITER GATEWAY ===== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <div class="contact-info-panel">
+            <div class="section-label">
+              <span class="label-code">// 09</span>
+              <span>COMMUNICATION CHANNEL</span>
+            </div>
+            <h2 class="contact-title">Let’s Connect Directly</h2>
+            <p class="contact-lead">
+              I am actively open to roles, engagements, and consulting in <strong>Cybersecurity Analysis</strong>, <strong>DFIR</strong>, <strong>Threat Intelligence</strong>, and <strong>Security Automation Engineering</strong>. Remote or relocation friendly.
+            </p>
+
+            <div class="contact-details-list">
+              
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Direct Email</div>
+                  <div class="contact-val email-copy-container">
+                    <a href="mailto:iampopg@proton.me" id="user-email">iampopg@proton.me</a>
+                    <button class="copy-btn" id="copy-email-btn" title="Copy Email Address">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                      </svg>
+                      <span class="copy-tooltip">Copied!</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Phone</div>
+                  <div class="contact-val">
+                    <a href="tel:+2348135729554">+234 813 572 9554</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Location</div>
+                  <div class="contact-val">Abuja, Nigeria 🇳🇬</div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="social-links-row">
+              <a href="https://linkedin.com/in/sodiq-badmus" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+
+              <a href="https://github.com/iampopg" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+
+              <a href="https://x.com/iampopg" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="X (Twitter)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4l16 16M4 20L20 4"/>
+                </svg>
+                <span>X / Twitter</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <form netlify name="contact" method="POST" action="/" netlify-honeypot="bot-field" class="styled-form" id="contact-form">
+              <input type="hidden" name="form-name" value="contact">
+              <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="e.g. Hiring Manager / Security Lead" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Work / Official Email</label>
+                  <input type="email" id="email" name="email" placeholder="lead@company.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Inquiry Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="e.g. Cybersecurity Analyst Opportunity / Project Triage" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Details regarding your role, forensic investigation, or project inquiry..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit-btn">
+                <span>Send Direct Inquiry</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"/>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <div class="footer-brand">Sodiq Badmus</div>
+        <p class="footer-sub">Cybersecurity Analyst & Security Automation Specialist</p>
+      </div>
+      <div class="footer-center">
+        <span>Abuja, Nigeria 🇳🇬</span>
+        <span class="dot-sep">•</span>
+        <span>TryHackMe Top 1% Global</span>
+      </div>
+      <div class="footer-right">
+        <a href="#home" class="back-to-top" aria-label="Back to Top">
+          <span>Back to top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
