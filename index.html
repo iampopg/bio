@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sodiq Badmus | Cybersecurity Analyst</title>
-  <meta name="description" content="Sodiq Badmus, a cybersecurity analyst in Abuja, Nigeria. Vulnerability research, digital forensics and open-source security tools.">
+  <meta name="description" content="Sodiq Badmus, a cybersecurity analyst based in Abuja, Nigeria. Digital forensics, malware analysis and open-source security tools.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Sodiq Badmus | Cybersecurity Analyst">
-  <meta property="og:description" content="Vulnerability research, digital forensics and open-source security tools.">
+  <meta property="og:description" content="Digital forensics, malware analysis and open-source security tools.">
   <meta property="og:image" content="me.png">
   <meta name="theme-color" content="#f7f5ed">
   <link rel="icon" href="me.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="main.js" defer></script>
 </head>
@@ -25,13 +25,12 @@
       <button class="menu-toggle" type="button" hidden aria-expanded="false" aria-controls="navigation">Menu</button>
       <nav class="navigation" id="navigation" aria-label="Main navigation">
         <a href="#about">About</a>
-        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Tools</a>
         <a href="#skills">Skills</a>
         <a href="#certifications">Credentials</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="header-resume" href="resume.pdf" download>Résumé <span aria-hidden="true">↓</span></a>
     </div>
   </header>
 
@@ -40,11 +39,11 @@
       <div class="hero-copy">
         <p class="eyebrow"><span class="location-dot" aria-hidden="true"></span> Abuja, Nigeria</p>
         <h1 id="name">Sodiq Badmus</h1>
-        <p class="hero-role">Cybersecurity analyst <span>&amp;</span> threat researcher</p>
-        <p class="hero-summary">I investigate vulnerabilities, examine digital evidence and build tools for security teams. My work includes coordinated vulnerability disclosure in Nigeria and open-source software for email forensics.</p>
+        <p class="hero-role">Cybersecurity Analyst</p>
+        <p class="hero-summary">My work at Digital Footprints has included disk and memory forensics, malware analysis, and teaching hands-on security labs. I also build open-source security tools, including J12 for email forensics.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#research">Read the case study <span aria-hidden="true">↘</span></a>
-          <a class="button button-secondary" href="resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+          <a class="button button-primary" href="#experience">View experience <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">↘</span></a>
         </div>
       </div>
 
@@ -55,38 +54,39 @@
       </div>
     </section>
 
-    <section class="research-band" id="research" aria-labelledby="research-title">
-      <div class="shell section-space">
-        <header class="section-heading">
-          <div>
-            <p class="eyebrow">Vulnerability research</p>
-            <h2 id="research-title">PHP2Shell in Nigeria</h2>
-          </div>
-          <p class="research-meta">Lead researcher · 2026<br>Coordinated disclosure</p>
-        </header>
-
-        <div class="research-layout">
-          <div class="research-copy">
-            <p class="research-intro">I surveyed HTTP headers across <strong>27,857 Nigerian domains</strong> to identify possible exposure to two critical PHP vulnerabilities known as PHP2Shell. The survey flagged 108 endpoints across government, education and other organisations.</p>
-            <p>I reported the findings to ngCERT (ticket #30993237) and NITDA-CERRT. Follow-up checks found remediation on 94 endpoints. I also reported webshell and botnet activity observed before patching and shared guidance for checking for persistence after an update.</p>
-            <div class="advisory-links" aria-label="PHP security advisories">
-              <a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w">CVE-2026-109618 <span aria-hidden="true">↗</span></a>
-              <a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp">CVE-2026-109619 <span aria-hidden="true">↗</span></a>
-            </div>
-          </div>
-          <div class="research-results">
-            <dl class="results-grid">
-              <div><dt>Domains surveyed</dt><dd>27,857</dd></div>
-              <div><dt>Endpoints flagged</dt><dd>108</dd></div>
-            </dl>
-            <p class="endpoint-breakdown">24 .gov.ng · 43 .edu.ng · 41 other endpoints</p>
-            <div class="remediation">
-              <div class="remediation-summary"><strong>87%</strong><span>remediated<br><small>94 of 108 endpoints</small></span></div>
-              <progress max="108" value="94" aria-label="Remediated endpoints">94 of 108</progress>
-            </div>
-          </div>
+    <section class="shell section-space experience" id="experience" aria-labelledby="experience-title">
+      <header class="section-heading"><h2 id="experience-title">Experience</h2></header>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>Digital Footprints</h3>
+          <p>Cybersecurity Analyst Intern · 2025–present</p>
         </div>
-      </div>
+        <div class="experience-detail">
+          <p>Examined disk and memory evidence, recovered 30 GB of files from formatted storage, supported vulnerability assessments and taught hands-on security labs.</p>
+          <p id="intel">Led Malware Intelligence in Africa (MIA), investigating Blaze Stealer, Agent Tesla and ransomware. Recorded indicators in MISP and mapped observed behaviours to MITRE ATT&amp;CK.</p>
+        </div>
+      </article>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>Wrancorp</h3>
+          <p>Security Analyst · Mar 2024</p>
+        </div>
+        <div class="experience-detail"><p>Led malware research and analysed suspicious traffic. Configured firewalls and intrusion detection and prevention systems, and wrote Python scripts for recurring security tasks.</p></div>
+      </article>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>KukaVPN</h3>
+          <p>Python Engineer (Contract) · Nov 2022–Jan 2023</p>
+        </div>
+        <div class="experience-detail"><p>Built an OpenVPN client and integrated it with a remote provisioning server.</p></div>
+      </article>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>SQI College of ICT</h3>
+          <p>Cybersecurity Analyst (IT Training) · Feb–Nov 2022</p>
+        </div>
+        <div class="experience-detail"><p>Automated network scans with Python, examined traffic with Wireshark and tcpdump, and correlated logs in Splunk.</p></div>
+      </article>
     </section>
 
     <section class="shell section-space" id="projects" aria-labelledby="tools-title">
@@ -218,38 +218,21 @@
       </section>
     </div>
 
-    <section class="shell section-space experience" id="experience" aria-labelledby="experience-title">
-      <header class="section-heading"><h2 id="experience-title">Experience</h2></header>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>Digital Footprints</h3>
-          <p>Cybersecurity Analyst Intern · 2025–present</p>
+    <section class="shell section-space research-section" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Vulnerability research</h2>
+      <article class="research-note">
+        <header>
+          <h3>PHP2Shell in Nigeria</h3>
+          <p class="research-meta">Coordinated disclosure · 2026</p>
+        </header>
+        <div class="research-copy">
+          <p>I surveyed HTTP headers across 27,857 Nigerian domains and identified 108 potentially exposed endpoints across government, education and other organisations. I reported the findings to ngCERT (ticket #30993237) and NITDA-CERRT.</p>
+          <p>Follow-up checks found remediation on 94 endpoints (87%). I also reported pre-patch webshell and botnet activity and shared guidance for checking for persistence after an update.</p>
+          <div class="advisory-links" aria-label="PHP security advisories">
+            <a class="text-link" href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w">CVE-2026-109618 <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp">CVE-2026-109619 <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <div class="experience-detail">
-          <p>Examined disk and memory evidence, recovered 30 GB of files from formatted storage, supported vulnerability assessments and taught hands-on security labs.</p>
-          <p id="intel">Led Malware Intelligence in Africa (MIA), investigating Blaze Stealer, Agent Tesla and ransomware. Recorded indicators in MISP and mapped observed behaviours to MITRE ATT&amp;CK.</p>
-        </div>
-      </article>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>Wrancorp</h3>
-          <p>Security Analyst · Mar 2024</p>
-        </div>
-        <div class="experience-detail"><p>Led malware research and analysed suspicious traffic. Configured firewalls and intrusion detection and prevention systems, and wrote Python scripts for recurring security tasks.</p></div>
-      </article>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>KukaVPN</h3>
-          <p>Python Engineer (Contract) · Nov 2022–Jan 2023</p>
-        </div>
-        <div class="experience-detail"><p>Built an OpenVPN client and integrated it with a remote provisioning server.</p></div>
-      </article>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>SQI College of ICT</h3>
-          <p>Cybersecurity Analyst (IT Training) · Feb–Nov 2022</p>
-        </div>
-        <div class="experience-detail"><p>Automated network scans with Python, examined traffic with Wireshark and tcpdump, and correlated logs in Splunk.</p></div>
       </article>
     </section>
   </main>
