@@ -95,6 +95,7 @@ button { font: inherit; }
   line-height: 1.08;
 }
 .hero-summary { max-width: 33rem; margin-top: 1.25rem; color: var(--muted); font-size: clamp(1rem, 1.38vw, 1.18rem); }
+.hero-summary p + p { margin-top: .7rem; }
 .hero-actions, .project-links { display: flex; flex-wrap: wrap; gap: .75rem; }
 .hero-actions { margin-top: 1.85rem; }
 .button {
@@ -295,8 +296,6 @@ h2 {
 .experience-role p { font-size: .87rem; color: var(--muted); }
 .employment-role + .employment-role { margin-top: 1rem; }
 .employment-role h4 { margin: 0; font-size: 1rem; }
-.employment-dates { color: var(--muted); font-size: .87rem; }
-.employment-dates + p { margin-top: .3rem; }
 .employment-projects { margin: .3rem 0 0; padding-left: 1.2rem; }
 .employment-projects li + li { margin-top: .35rem; }
 
