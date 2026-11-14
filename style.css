@@ -293,7 +293,12 @@ h2 {
 .experience-row:last-child { border-bottom: 1px solid var(--rule); }
 .experience-role h3 { font-size: 1.1rem; }
 .experience-role p { font-size: .87rem; color: var(--muted); }
-.experience-detail p + p { margin-top: .6rem; }
+.employment-role + .employment-role { margin-top: 1rem; }
+.employment-role h4 { margin: 0; font-size: 1rem; }
+.employment-dates { color: var(--muted); font-size: .87rem; }
+.employment-dates + p { margin-top: .3rem; }
+.employment-projects { margin: .3rem 0 0; padding-left: 1.2rem; }
+.employment-projects li + li { margin-top: .35rem; }
 
 .site-footer { background: var(--pine-dark); color: var(--light-text); }
 .footer-inner {

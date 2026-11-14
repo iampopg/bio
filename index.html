@@ -25,8 +25,8 @@
       <button class="menu-toggle" type="button" hidden aria-expanded="false" aria-controls="navigation">Menu</button>
       <nav class="navigation" id="navigation" aria-label="Main navigation">
         <a href="#about">About</a>
+        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#projects">Tools</a>
         <a href="#skills">Skills</a>
         <a href="#certifications">Credentials</a>
         <a href="#contact">Contact</a>
@@ -40,9 +40,9 @@
         <p class="eyebrow"><span class="location-dot" aria-hidden="true"></span> Abuja, Nigeria</p>
         <h1 id="name">Sodiq Badmus</h1>
         <p class="hero-role">Cybersecurity Analyst</p>
-        <p class="hero-summary">My work at Digital Footprints has included disk and memory forensics, malware analysis, and teaching hands-on security labs. I also build open-source security tools, including J12 for email forensics.</p>
+        <p class="hero-summary">I work in digital forensics and malware analysis. I built J12 to analyse email evidence and PhishGuard to help investigate suspicious messages.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#experience">View experience <span aria-hidden="true">↓</span></a>
+          <a class="button button-primary" href="#projects">View my projects <span aria-hidden="true">↓</span></a>
           <a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">↘</span></a>
         </div>
       </div>
@@ -54,44 +54,9 @@
       </div>
     </section>
 
-    <section class="shell section-space experience" id="experience" aria-labelledby="experience-title">
-      <header class="section-heading"><h2 id="experience-title">Experience</h2></header>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>Digital Footprints</h3>
-          <p>Cybersecurity Analyst Intern · 2025–present</p>
-        </div>
-        <div class="experience-detail">
-          <p>Examined disk and memory evidence, recovered 30 GB of files from formatted storage, supported vulnerability assessments and taught hands-on security labs.</p>
-          <p id="intel">Led Malware Intelligence in Africa (MIA), investigating Blaze Stealer, Agent Tesla and ransomware. Recorded indicators in MISP and mapped observed behaviours to MITRE ATT&amp;CK.</p>
-        </div>
-      </article>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>Wrancorp</h3>
-          <p>Security Analyst · Mar 2024</p>
-        </div>
-        <div class="experience-detail"><p>Led malware research and analysed suspicious traffic. Configured firewalls and intrusion detection and prevention systems, and wrote Python scripts for recurring security tasks.</p></div>
-      </article>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>KukaVPN</h3>
-          <p>Python Engineer (Contract) · Nov 2022–Jan 2023</p>
-        </div>
-        <div class="experience-detail"><p>Built an OpenVPN client and integrated it with a remote provisioning server.</p></div>
-      </article>
-      <article class="experience-row">
-        <div class="experience-role">
-          <h3>SQI College of ICT</h3>
-          <p>Cybersecurity Analyst (IT Training) · Feb–Nov 2022</p>
-        </div>
-        <div class="experience-detail"><p>Automated network scans with Python, examined traffic with Wireshark and tcpdump, and correlated logs in Splunk.</p></div>
-      </article>
-    </section>
-
     <section class="shell section-space" id="projects" aria-labelledby="tools-title">
       <header class="section-heading">
-        <h2 id="tools-title">Security tools</h2>
+        <h2 id="tools-title">Independent projects</h2>
         <a class="text-link" href="https://github.com/iampopg">GitHub profile <span aria-hidden="true">↗</span></a>
       </header>
 
@@ -127,7 +92,68 @@
           <h3><a href="https://github.com/iampopg/persistence-finder">persistence-finder <span aria-hidden="true">↗</span></a></h3>
           <p>Checks for common persistence mechanisms on Windows, Linux and macOS.</p>
         </article>
+        <article class="tool-card">
+          <h3>SMB3 Traffic Decryption Toolkit</h3>
+          <p>Decrypts SMB3 traffic from packet captures. I built it for a TryHackMe challenge.</p>
+        </article>
+        <article class="tool-card">
+          <h3>Windows Memory Analysis</h3>
+          <p>Used Volatility to investigate Windows memory and document findings.</p>
+        </article>
+        <article class="tool-card">
+          <h3>Machine Learning Intrusion Detection</h3>
+          <p>Built and evaluated a network anomaly detector as an academic project.</p>
+        </article>
       </div>
+    </section>
+
+    <section class="shell section-space experience" id="experience" aria-labelledby="experience-title">
+      <header class="section-heading"><h2 id="experience-title">Experience</h2></header>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>Digital Footprints Nigeria</h3>
+        </div>
+        <div class="experience-detail">
+          <div class="employment-role">
+            <h4>Cybersecurity Analyst</h4>
+            <p class="employment-dates">Jan 2026–present</p>
+            <p>Contributed to <a href="https://www.linkedin.com/posts/digital-footprints-ltd_week-6-highlights-hyprep-digital-footprints-activity-7508049616672722944-hiZg">HYPREP’s cybersecurity training for Ogoni youth</a>.</p>
+          </div>
+          <div class="employment-role">
+            <h4>Cybersecurity Analyst Intern</h4>
+            <p class="employment-dates">Apr–Dec 2025</p>
+            <p>Examined disk and memory evidence, recovered 30 GB of files from formatted storage, and documented vulnerability assessment findings.</p>
+          </div>
+          <div class="employment-role">
+            <h4>Projects</h4>
+            <ul class="employment-projects">
+              <li id="intel"><strong>Malware Intelligence in Africa (MIA), Project Lead.</strong> Coordinated malware analysis, OSINT collection and forensic work. Investigated Blaze Stealer, Agent Tesla and ransomware, validated indicators in MISP, and mapped behaviours to MITRE ATT&amp;CK.</li>
+              <li><strong>Cyber Skills Bridge, VAPT Tutor.</strong> Delivered hands-on vulnerability assessment and penetration testing sessions, helped build lab environments, and mentored trainees.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>Wrancorp</h3>
+          <p>Security Analyst · Mar 2024</p>
+        </div>
+        <div class="experience-detail"><p>Led malware research and analysed suspicious traffic. Configured firewalls and intrusion detection and prevention systems, and wrote Python scripts for recurring security tasks.</p></div>
+      </article>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>KukaVPN</h3>
+          <p>Python Engineer (Contract) · Nov 2022–Jan 2023</p>
+        </div>
+        <div class="experience-detail"><p>Built an OpenVPN client and integrated it with a remote provisioning server.</p></div>
+      </article>
+      <article class="experience-row">
+        <div class="experience-role">
+          <h3>SQI College of ICT</h3>
+          <p>Cybersecurity Analyst (IT Training) · Feb–Nov 2022</p>
+        </div>
+        <div class="experience-detail"><p>Automated network scans with Python, examined traffic with Wireshark and tcpdump, and correlated logs in Splunk.</p></div>
+      </article>
     </section>
 
     <section class="shell section-space skills-section" id="skills" aria-labelledby="skills-title">
